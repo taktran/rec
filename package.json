@@ -5,9 +5,15 @@
   "main": "index.js",
   "scripts": {
     "init": "npm install -g budo",
-    "start": "budo index.js --live -- -t babelify --presets [ es2015 ]",
+    "start": "budo index.js --live",
     "lint": "semistandard",
     "test": "npm run lint"
+  },
+  "browserify": {
+    "transform": [ "babelify" ]
+  },
+  "babel": {
+    "presets": [ "es2015" ]
   },
   "repository": {
     "type": "git",

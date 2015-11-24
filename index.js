@@ -1,9 +1,7 @@
-'use strict';
-
-function hello() {
-  let str = 'hello';
+function hello(str = 'nono') {
+  str = 'hello ' + str;
 
   console.log(str);
 }
 
-hello();
+hello('wat');
