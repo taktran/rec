@@ -12,9 +12,6 @@
   "browserify": {
     "transform": [ "babelify" ]
   },
-  "babel": {
-    "presets": [ "es2015" ]
-  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/taktran/rec.git"
