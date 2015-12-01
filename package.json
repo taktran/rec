@@ -1,7 +1,7 @@
 {
   "name": "rec",
   "version": "0.0.1",
-  "description": "Record and playback library",
+  "description": "Record and playback playground",
   "main": "index.js",
   "scripts": {
     "init": "npm install -g budo",

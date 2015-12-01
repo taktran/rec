@@ -1,6 +1,6 @@
 # Rec
 
-A record and playback library
+Maybe this will be a record and playback library someday. Right now it is a playground for Observables and co.
 
 ## Development
 
