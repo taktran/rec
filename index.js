@@ -31,4 +31,4 @@ function Counter (props, children) {
   )
 }
 
-Yolk.render(<Counter />, document.getElementById('container'))
+Yolk.render(<Counter title="Tak" />, document.getElementById('container'))
